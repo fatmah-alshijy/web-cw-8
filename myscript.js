@@ -8,6 +8,14 @@
 
 // 👇 هنا function عرف الدالة او
 
+function driving(A) {
+    if (A > 18) console.log(" 🚘😍 مبروك سوف تحصل على الليسن")
+     else{A < 18} console.log("😢 للاسف عمرك لا يسمح")
+
+}
+driving(21)
+
+
 
 
 // لا تنسى أن تنادي الدالة
@@ -21,7 +29,11 @@
 //     - console.log لطباعة قائمة نكهات الآيس كريم بإستخدام for loop استخدم
 
 // 👇 هنا array عرف المصفوفة او
-
+    let iceCream =["mango","choclot","moch","watarmelon"]
+console.log
+for (let flavor of iceCream ) {
+    console.log(flavor )
+}
 
 
 
@@ -32,3 +44,20 @@
 
 // --------------------------------- 🔥 بونص ------------------------------------
 // while loop اطبع احد المصفوفات بإستخدام
+let flavor=[{name:"mango"},{name:"choclot"} ,{name:"moch"},{name:"watarmelon"}]
+function myIcecream(flavor) {
+console.log(`${flavor.name} is my favflavoor  `);
+}
+
+
+
+let movies = ['conan','naruto','black clover']
+function favorite(B)
+let counter=0;
+
+
+while (counter < 10) {
+    counter=  counter+1
+    console.log("Myfav movies"+counter)
+    
+}
